@@ -11,7 +11,6 @@ services:
       - key: SCHWAB_CLIENT_SECRET
         sync: false
       - key: SCHWAB_REDIRECT_URI
-        value: https://127.0.0.1
+        sync: false
       - key: SCHWAB_REFRESH_TOKEN
         sync: false
-
